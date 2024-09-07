@@ -46,9 +46,9 @@
         default_layer {
             display-name = "default layer";
             bindings = <
-&kp ESCAPE       &kp C_AC_COPY         &kp C_AC_PASTE
-&kp C_AC_UNDO    &kp C_BRIGHTNESS_INC  &kp C_BRIGHTNESS_DEC
-&kp PRINTSCREEN  &kp C_POWER           &kp C_PLAY_PAUSE      &kp C_MUTE
+&kp C_AL_MY_COMPUTER   &kp C_AL_FILE_BROWSER  &kp C_BRIGHTNESS_INC
+&kp C_AL_TASK_MANAGER  &kp C_AL_WWW           &kp C_BRIGHTNESS_DEC
+&kp PRINTSCREEN        &kp C_POWER            &kp C_PLAY_PAUSE      &kp C_MUTE
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
